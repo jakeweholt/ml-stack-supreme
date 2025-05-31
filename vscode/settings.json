@@ -18,17 +18,6 @@
     "terminal.integrated.inheritEnv": true,
     "terminal.integrated.fontSize": 14,
     "workbench.iconTheme": "material-icon-theme",
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/.venv": true,
-        "**/*.pyc": true
-    },
     "python.envFile": "${workspaceFolder}/.env",
-    "files.exclude": {
-        "**/.git": true,
-        "**/.venv": true,
-        "**/__pycache__": true,
-        "**/*.pyc": true
-    },
     "explorer.excludeGitIgnore": true
 }
