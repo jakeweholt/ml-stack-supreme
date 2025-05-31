@@ -1,0 +1,16 @@
+{
+    "Freeze Requirements": {
+        "prefix": "uvfreeze",
+        "body": [
+            "uv pip freeze > requirements.txt"
+        ],
+        "description": "Freeze environment packages to a requirements.txt file"
+    },
+    "Install from Requirements File": {
+        "prefix": "uvinstallreq",
+        "body": [
+            "uv pip install -r requirements.txt"
+        ],
+        "description": "Install packages from a requirements.txt file"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "88"],
+    "python.sortImports.args": ["--profile", "black"],
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.inheritEnv": true,
+    "terminal.integrated.fontSize": 14,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.venv": true,
+        "**/*.pyc": true
+    },
+    "python.envFile": "${workspaceFolder}/.env"
+}
