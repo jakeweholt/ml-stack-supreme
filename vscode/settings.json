@@ -4,8 +4,14 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
     "python.formatting.provider": "black",
-    "python.formatting.blackArgs": ["--line-length", "88"],
-    "python.sortImports.args": ["--profile", "black"],
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ],
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
     "editor.tabSize": 4,
     "editor.formatOnSave": true,
     "files.autoSave": "onFocusChange",
@@ -17,5 +23,12 @@
         "**/.venv": true,
         "**/*.pyc": true
     },
-    "python.envFile": "${workspaceFolder}/.env"
+    "python.envFile": "${workspaceFolder}/.env",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.venv": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "explorer.excludeGitIgnore": true
 }

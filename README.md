@@ -43,12 +43,14 @@ xargs -n 1 code --install-extension < vscode/extensions.list
 ### 3️⃣ Apply VSCode Configuration
 
 ```bash
+chmod +x setup_vscode.sh
 ./setup_vscode.sh
 ```
 
 ### 4️⃣ Setup Python Environment with uv
 
 ```bash
+chmod +x setup_uv_env.sh
 ./setup_uv_env.sh
 ```
 

@@ -1,0 +1,189 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ultimate-ml-env"
+version = "0.1.0"
+description = "A complete Python ML environment for modern data science and engineering"
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+
+# Core Data Science & ML
+base = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+    "ipykernel",
+    "pyarrow",
+    "polars",
+    "dask[dataframe]",
+    "tqdm",
+    "ipywidgets"
+]
+
+# Deep Learning
+deep_learning = [
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "tensorflow",
+    "keras",
+    "lightning",
+    "huggingface_hub",
+    "transformers",
+    "datasets",
+    "sentence-transformers",
+    "accelerate"
+]
+
+# Cloud & AWS
+cloud = [
+    "boto3",
+    "awswrangler",
+    "s3fs",
+    "botocore",
+    "smart_open"
+]
+
+# Experiment Tracking & Optimization
+experiment = [
+    "mlflow",
+    "optuna",
+    "wandb",
+    "hydra-core",
+    "omegaconf",
+    "scikit-optimize"
+]
+
+# Advanced ML & Feature Engineering
+advanced_ml = [
+    "xgboost",
+    "lightgbm",
+    "catboost",
+    "featuretools",
+    "scipy",
+    "patsy"
+]
+
+# Utility & Visualization
+utility = [
+    "loguru",
+    "rich"
+]
+
+# Validation & Parsing
+validation = [
+    "pydantic"
+]
+
+# Dev & Tooling
+dev = [
+    "black",
+    "isort",
+    "flake8",
+    "mypy",
+    "pre-commit",
+    "pytest",
+    "tox",
+    "jedi",
+    "python-lsp-server",
+    "pylint",
+    "poethepoet"
+]
+
+# Path & Environment Management
+env = [
+    "python-dotenv",
+    "dotenv-linter"
+]
+
+# HTTP Clients
+http = [
+    "httpx",
+    "requests"
+]
+
+# Database & Serving
+database = [
+    "sqlalchemy"
+]
+serving = [
+    "fastapi",
+    "flask"
+]
+
+# Big Data
+bigdata = [
+    "pyspark"
+]
+
+# All-Inclusive Mega Setup
+all = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+    "ipykernel",
+    "pyarrow",
+    "polars",
+    "dask[dataframe]",
+    "tqdm",
+    "ipywidgets",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "tensorflow",
+    "keras",
+    "lightning",
+    "huggingface_hub",
+    "transformers",
+    "datasets",
+    "sentence-transformers",
+    "accelerate",
+    "boto3",
+    "awswrangler",
+    "s3fs",
+    "botocore",
+    "smart_open",
+    "mlflow",
+    "optuna",
+    "wandb",
+    "hydra-core",
+    "omegaconf",
+    "scikit-optimize",
+    "xgboost",
+    "lightgbm",
+    "catboost",
+    "featuretools",
+    "scipy",
+    "patsy",
+    "loguru",
+    "rich",
+    "pydantic",
+    "black",
+    "isort",
+    "flake8",
+    "mypy",
+    "pre-commit",
+    "pytest",
+    "tox",
+    "jedi",
+    "python-lsp-server",
+    "pylint",
+    "poethepoet",
+    "python-dotenv",
+    "dotenv-linter",
+    "httpx",
+    "requests",
+    "sqlalchemy",
+    "fastapi",
+    "flask",
+    "pyspark"
+]
